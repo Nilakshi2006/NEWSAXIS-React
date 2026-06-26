@@ -3,28 +3,276 @@ import NewsItem from './NewsItem'
 
 
 export class News extends Component {
-  
+  articles= [
+{
+"source": {
+"id": null,
+"name": "BBC News"
+},
+"author": null,
+"title": "Ex-Trump adviser John Bolton pleads guilty to mishandling classified documents - BBC",
+"description": "Trump's former national security adviser faces a prison sentence of up to five years and has agreed to pay $2.25m in fine, prosecutors say.",
+"url": "https://www.bbc.com/news/articles/czxqwg4nrvlo",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/bcea/live/a513f030-716c-11f1-a4f8-ed826651ef10.jpg",
+"publishedAt": "2026-06-26T14:28:22Z",
+"content": "\"He also knew the damage to national security that could be caused by mishandling that sensitive information,\" she said. \"Nevertheless, as Mr Bolton just admitted, he put our national security at gra… [+32 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Valentina Palladino",
+"title": "Prime Day deals end tonight: Live updates on the best tech sales from Apple, Sony, Bose, Anker and others - Yahoo Tech",
+"description": "Prime Day is almost over, but you can still save on a bunch of our favorite tech from headphones to TVs to iPhone accessories and more.",
+"url": "https://tech.yahoo.com/deals/breaking-news/live/prime-day-deals-end-tonight-live-updates-on-the-best-tech-sales-from-apple-sony-bose-anker-and-others-184252541.html",
+"urlToImage": "https://s.yimg.com/lo/mysterio/api/699a35d87ef550c6a887231a3713b8b24903f318d05f93894f944e10a7d22a6e/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fexample-5_9078.jpg",
+"publishedAt": "2026-06-26T14:00:11Z",
+"content": "Amazon Prime Day is just about over, but Prime members can still save across a swath of items available from the online retailer. While most Prime Day deals are reserved for Prime members, there are … [+19712 chars]"
+},
+{
+"source": {
+"id": "espn",
+"name": "ESPN"
+},
+"author": "Jorge Castillo",
+"title": "Mets fire manager Carlos Mendoza after 34-47 start - ESPN",
+"description": "The New York Mets fired manager Carlos Mendoza on Friday with the club toiling through a historically poor start.",
+"url": "https://www.espn.com/mlb/story/_/id/49186750/mets-fire-manager-carlos-mendoza-34-47-start",
+"urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0420%2Fr1646429_1296x729_16%2D9.jpg",
+"publishedAt": "2026-06-26T13:41:00Z",
+"content": "The New York Mets fired manager Carlos Mendoza on Friday, the team announced, with the club toiling through a six-game losing streak in a disastrous season.\r\nAndy Green was named interim manager for … [+5630 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Amalya Dubrovsky",
+"title": "Stock market today: Dow, S&P 500, Nasdaq slide as report of OpenAI IPO delay rattles techs - Yahoo Finance",
+"description": "Wall Street digested a downbeat week for tech stocks.",
+"url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-waver-as-report-of-openai-ipo-delay-rattles-chip-stocks-231347821.html",
+"urlToImage": "https://s.yimg.com/lo/mysterio/api/EBF01DDC5792CDC05C4E7DBC68DC49EE78A1BDCA315CCF6CDBD2AD87D7B14F96/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-06%2F0f4360b0-44a2-11f0-b23a-700d03706262",
+"publishedAt": "2026-06-26T13:37:53Z",
+"content": "US stocks were volatile on Friday, as a report of a potential delay to OpenAI's (OPAI.PVT) IPO added to the headwinds that have whipsawed markets this week.\r\nThe tech-heavy Nasdaq Composite (^IXIC) h… [+1317 chars]"
+},
+{
+"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": "Matthew Cappucci",
+"title": "The strawberry moon will soon rise. When to look up. - The Washington Post",
+"description": "Be prepared Monday night, when the first full moon of summer will rise at 8:53 p.m. local time in Washington, 8:24 p.m. in Miami, 8:49 p.m. in Chicago and 8:26 p.m. in Los Angeles.",
+"url": "https://www.washingtonpost.com/weather/2026/06/26/strawberry-moon-will-soon-rise-when-look-up/",
+"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/NFEQXZROZ7NTBBPTBMGWBPEMJY.JPG&w=1440",
+"publishedAt": "2026-06-26T13:34:57Z",
+"content": "The first full moon of summer often called the strawberry moon will rise in the southeast on Monday.\r\nMoonrise that night will be at 8:53 p.m. local time in Washington, 8:24 p.m. in Miami, 8:49 p.m. … [+39 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "Paul Tassi",
+"title": "Supergirl’s Rotten Tomatoes Audience Score Soars Higher Than Critics’ - Yahoo",
+"description": "Supergirl is mostly a miss with critics, but Rotten Tomatoes audience scores for the film are quite a bit higher.",
+"url": "https://www.forbes.com/sites/paultassi/2026/06/26/supergirls-rotten-tomatoes-audience-score-soars-higher-than-critics/",
+"urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6a3c03e8c6c8981476bfa22f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+"publishedAt": "2026-06-26T13:11:43Z",
+"content": "Supergirl has been battered around online for the past two days after critic reviews went live, and it settled at a 58% rotten Rotten Tomatoes score. That was well below not just its predecessor, Sup… [+2655 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Steven Goff",
+"title": "World Cup 2026: USMNT stunned by Türkiye in stoppage time, losing perfect group stage run - Yahoo Sports",
+"description": "The United States' perfect group stage came to a heartbreaking end Thursday night.",
+"url": "https://sports.yahoo.com/soccer/live/world-cup-2026-usmnt-stunned-by-turkiye-in-stoppage-time-losing-perfect-group-stage-run-003000670.html",
+"urlToImage": "https://s.yimg.com/lo/mysterio/api/1d7d46992475fecb74668ed2ee01b0d73519508b783f251628baaa6cc9b48aa8/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-06%2F54bcc73d-a6b6-40ef-be39-dc09fc224bce",
+"publishedAt": "2026-06-26T12:44:41Z",
+"content": "INGLEWOOD, Calif. The U.S. had won its first two World Cup matches in grand fashion, clinched first place in the group in unprecedented manner and sent an intoxicating buzz across a country that year… [+12390 chars]"
+},
+{
+"source": {
+"id": "nbc-news",
+"name": "NBC News"
+},
+"author": "Reuters",
+"title": "Russian-installed authorities declare economic emergency in Crimea - NBC News",
+"description": "Russian-installed authorities in Crimea announced ‌a state of emergency on the peninsula on Friday to deal with economic issues, after suspending tourism ​and children’s summer camps and halting ​all fuel sales in response to Ukrainian ⁠attacks.",
+"url": "https://www.nbcnews.com/world/ukraine/russian-installed-authorities-declare-economic-emergency-crimea-rcna351898",
+"urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-06/260626-crimea-russia-ukraine-fuel-crisis-mn-0800-7549e4.jpg",
+"publishedAt": "2026-06-26T12:12:29Z",
+"content": "MOSCOW Russian-installed authorities in Crimea announced a state of emergency on the peninsula on Friday to deal with economic issues, after suspending tourism and childrens summer camps and halting … [+1157 chars]"
+},
+{
+"source": {
+"id": "politico",
+"name": "Politico"
+},
+"author": "Calen Razor",
+"title": "Capitol agenda: House GOP agenda gets tenuous Trump lifeline - Politico",
+"description": "The president told a band of GOP hard-liners to lift their blockade of House floor business, but some are doubling down in new ways.",
+"url": "https://www.politico.com/live-updates/2026/06/26/congress/gop-agenda-trump-tenuous-00977716",
+"urlToImage": "https://www.politico.com/dims4/default/ebe7241/2147483647/resize/1200x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fdc%2F18%2F009363f14092bbbe14cdd60dfaa9%2Fu-s-congress-96911.jpg",
+"publishedAt": "2026-06-26T12:00:00Z",
+"content": null
+},
+{
+"source": {
+"id": null,
+"name": "SB Nation"
+},
+"author": "Ricky O'Donnell",
+"title": "6 Jaylen Brown trade ideas for Celtics star with rumors swirling - SB Nation",
+"description": "Here are six Jaylen Brown fake trades that make sense for both sides.",
+"url": "https://www.sbnation.com/nba/1120370/jaylen-brown-trade-ideas-trail-blazers-rockets-suns-celtics",
+"urlToImage": "https://platform.sbnation.com/wp-content/uploads/sites/2/2026/06/gettyimages-2269239219.jpg?quality=90&strip=all&crop=0%2C8.1023129379233%2C100%2C78.521906350865&w=1200",
+"publishedAt": "2026-06-26T12:00:00Z",
+"content": "The Boston Celtics dangled Jaylen Brown in their trade offer for Giannis Antetokounmpo. The Milwaukee Bucks chose to ultimately accept a better package from the Miami Heat, and now Boston either has … [+4849 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "MacRumors"
+},
+"author": "Hartley Charlton",
+"title": "Refurbished MacBook Neo Models Now Available, a Day After Price Hike - MacRumors",
+"description": "Apple today began selling refurbished MacBook Neo units through its Certified Refurbished store, a day after raising prices on the laptop and several...",
+"url": "https://www.macrumors.com/2026/06/26/refurbished-macbook-neo-now-available/",
+"urlToImage": "https://images.macrumors.com/t/zN8bMf8ptk0IFX9GWSrBKd1ZF84=/2500x/article-new/2026/06/MacBook-Neo-on-Yellow-Feature.jpg",
+"publishedAt": "2026-06-26T10:59:19Z",
+"content": "Apple today began selling refurbished MacBook Neo units through its Certified Refurbished store, a day after raising prices on the laptop and several other products.\r\nThe refurbished ‌MacBook Neo‌ is… [+1452 chars]"
+},
+{
+"source": {
+"id": "nbc-news",
+"name": "NBC News"
+},
+"author": "Mithil Aggarwal, Matthew Mulligan",
+"title": "Hormuz traffic flows despite ship attack as Iran fights to keep its grip on key trade route - NBC News",
+"description": "A trickle of marine traffic was passing through the Strait of Hormuz on Friday despite an attack on a ship in the vital waterway a day earlier, as Iran reiterated its warnings for ships to follow a Tehran-approved route",
+"url": "https://www.nbcnews.com/world/iran/hormuz-traffic-flows-ship-attack-iran-trade-route-rcna351885",
+"urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-05/260523-iran-hormuz-flag-3x2-ww-1758-37402c.jpg",
+"publishedAt": "2026-06-26T10:58:24Z",
+"content": "A trickle of marine traffic was passing through the Strait of Hormuz on Friday despite an attack on a ship in the vital waterway a day earlier, as Iran reiterated its warnings for ships to follow a T… [+4320 chars]"
+},
+{
+"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": "Maria Sacchetti, Lauren Kaori Gurley",
+"title": "Nursing homes, factory owners and immigrants brace for fallout from Supreme Court ruling - The Washington Post",
+"description": "The high court’s decision to strip Haitians and Syrians of their protections from deportation had immediate ripple effects for both immigrants and their employers.",
+"url": "https://www.washingtonpost.com/immigration/2026/06/26/nursing-homes-factory-owners-immigrants-brace-fallout-supreme-court-ruling/",
+"urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/O7S7RA4Z2SEMUZOLKLOTSAKSBU_size-normalized.jpg&w=1440",
+"publishedAt": "2026-06-26T10:31:31Z",
+"content": "Immigrants began making plans to sell or rent their homes, secure bank accounts and figure out thorny issues like child custody arrangements. Business owners started calculating how many days they ca… [+181 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "Newser"
+},
+"author": "Rob Quinn",
+"title": "Ex-First Lady Jailed Over Bribes From Robot Dog Maker - Newser",
+"description": "Wife of ousted South Korean leader gets another 7 years",
+"url": "https://www.newser.com/story/391767/south-koreas-ex-first-lady-sentenced-in-bribery-case.html",
+"urlToImage": "https://img2-azrcdn.newser.com/image/1694687-12-20260626053003.jpeg",
+"publishedAt": "2026-06-26T10:00:00Z",
+"content": "South Korea's former first lady just picked up a second prison term—and this one involves a robot dog deal. A Seoul court on Friday sentenced Kim Keon Hee, wife of ousted ex-president Yoon Suk Yeol, … [+1598 chars]"
+},
+{
+"source": {
+"id": null,
+"name": "BBC News"
+},
+"author": null,
+"title": "Housing board votes to freeze New York rents in victory for Mamdani - BBC",
+"description": "The decision was welcomed by many tenants - but landlords fear it will worsen housing conditions.",
+"url": "https://www.bbc.com/news/articles/cn947pxxz4yo",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/46de/live/03f01d40-7131-11f1-992d-bb5874cdc3c0.jpg",
+"publishedAt": "2026-06-26T09:42:26Z",
+"content": "\"Older rent-stabilized buildings are already struggling under rising operating costs, yet the Board chose to disregard those realities,\" said James Whelan, president of the Real Estate Board of New Y… [+3 chars]"
+},
+{
+"source": {
+"id": "nbc-news",
+"name": "NBC News"
+},
+"author": "Claudio Lavanga",
+"title": "Scientists reveal secrets of ancient scrolls burned by Mount Vesuvius nearly 2,000 years ago - NBC News",
+"description": "Researchers have recovered texts previously lost to history, revealing philosophical takes on ethics, the arts, human behavior and theology.",
+"url": "https://www.nbcnews.com/world/italy/scientists-reveal-secrets-ancient-scrolls-burned-mount-vesuvius-nearly-rcna351178",
+"urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-06/260626-pompeii-4-rs-30a4d9.jpg",
+"publishedAt": "2026-06-26T09:00:00Z",
+"content": "In one text, an unknown author appears to warn against excessive impulse. Another key concept, researchers say, is phronesis, ancient Greek for practical wisdom. In another passage, the ancient autho… [+2994 chars]"
+},
+{
+"source": {
+"id": "politico",
+"name": "Politico"
+},
+"author": "Katherine Tully-McManus",
+"title": "The Lincoln Memorial should be green with envy: This reflecting pool stayed clear - Politico",
+"description": "The Architect of the Capitol has long toiled to keep the Mall’s other body of water from falling into disrepair.",
+"url": "https://www.politico.com/news/2026/06/26/lincoln-memorial-reflecting-pool-capitol-00977426",
+"urlToImage": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F11%2Ff7%2F61d06a7345628af3bbb701d14596%2F079a8404-edit.jpg",
+"publishedAt": "2026-06-26T08:45:00Z",
+"content": "In contrast, draining and refilling the Lincoln Memorial Reflecting Pool typically takes about a month.\r\nThere is no evidence that the National Park Service or White House sought the AOCs expertise w… [+2000 chars]"
+}
+]
+   constructer(){
+    console.log("Hey");
+    this.state={
+articles:this.articles,
+loading:false
+    }
+   }
 
   render() {
     return (
-      <div className='container my-3'>
+    
+   <div className='container my-3'>
 
-        <h2>NEWSAXIS-Top Headlines</h2>
-        <div className="row">
-<div className="col-md-4">
-        <NewsItem title="Top Headline 1" description="This is the description for the first top headline." />
-        </div>
-        <div className="col-md-4">
-      <NewsItem title="Top Headline 2" description="This is the description for the second top headline." />
-      </div>
-      <div className="col-md-4">
-      <NewsItem title="Top Headline 3" description="This is the description for the third top headline." />
-      </div>
-     
-      </div>
-      </div>
+  <h2>NEWSAXIS - Top Headlines</h2>
+
+  <div className="row">
+
+    <div className="col-md-4">
+      <NewsItem
+        title="Top Headline 1"
+        description="This is the description for the first top headline."
+        imageUrl="https://thf.bing.com/th/id/OIP.XEGKsPsI5vP8c8HKnoERSAHaE8?o=7&cb=thfc1falcon3rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+        newsUrl="TODO"
+      />
+    </div>
+
+    <div className="col-md-4">
+      <NewsItem
+        title="Top Headline 2"
+        description="This is the description for the second top headline."
+        imageUrl="https://thf.bing.com/th/id/OIP.XEGKsPsI5vP8c8HKnoERSAHaE8?o=7&cb=thfc1falcon3rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+      />
+    </div>
+
+    <div className="col-md-4">
+      <NewsItem
+        title="Top Headline 3"
+        description="This is the description for the third top headline."
+        imageUrl="https://thf.bing.com/th/id/OIP.XEGKsPsI5vP8c8HKnoERSAHaE8?o=7&cb=thfc1falcon3rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+      />
+    </div>
+
+  </div>
+
+</div>
     )
   }
-}
 
+}
 export default News
